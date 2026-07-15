@@ -1,5 +1,9 @@
 # Robotics Deployment Economics Engine
 
+
+Live app: https://robotics-deployment-engine.streamlit.app
+
+
 A decision engine for deployment-stage robotics and autonomous-systems companies. It answers one question: given your commercial pipeline, deployment capacity, unit economics, and customer portfolio, when do you actually become sustainable, and how fast can you cut customer-concentration risk?
 
 ## What's built right now
