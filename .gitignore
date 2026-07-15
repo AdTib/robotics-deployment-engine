@@ -1,0 +1,12 @@
+# Local-only project briefing -- must never appear in the GitHub repo or its history.
+PROJECT_BRIEFING.md
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Streamlit -- config.toml (theme) is tracked on purpose so Streamlit
+# Community Cloud picks up the same theme; only secrets are ignored.
+.streamlit/secrets.toml

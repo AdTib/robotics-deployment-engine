@@ -1,0 +1,7 @@
+capacity_type,available_capacity,unit_of_measure,lead_time_months,upfront_cost,monthly_cost,ramp_months,classification,notes
+manufacturing,8,units/month,0,0,0,0,assumed,"Base manufacturing throughput. Generic modeling default -- override with company data."
+implementation,10,units/month,0,0,0,0,assumed,"Base implementation (deployment-team) throughput, expressed here directly as a capacity total; engine.simulation also accepts deployment_teams x units_per_team_monthly."
+commissioning,10,units/month,0,0,0,0,assumed,"Base commissioning throughput."
+field_service,15,units/FTE,0,0,0,0,assumed,"Units one field-service FTE can support (spec section 5.4)."
+manufacturing,6,units/month,6,500000,20000,3,scenario,"Illustrative capacity-expansion addition: a second production line activating after a 6-month lead time, ramping to full output over 3 months (spec section 5.7)."
+implementation,8,units/month,3,150000,60000,2,scenario,"Illustrative capacity-expansion addition: one additional deployment team, active after a 3-month hiring lead time."
